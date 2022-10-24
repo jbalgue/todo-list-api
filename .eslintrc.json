@@ -1,0 +1,33 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "comma-dangle": "off",
+        "no-console": "warn",
+        "no-trailing-spaces": "error",
+        "no-magic-numbers": ["warn", { "ignoreArrayIndexes": true, "ignoreDefaultValues": true }]
+    }
+}
